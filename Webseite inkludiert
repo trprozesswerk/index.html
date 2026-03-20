@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TR ProzessWerk | Webseiten & Automatisierung für Handwerk</title>
+
+<script async src="https://tally.so/widgets/embed.js"></script>
+
+<style>
+:root{
+--bg:#07111f;
+--text:#f5f7fb;
+--muted:#aab4c3;
+--gold:#d7a54a;
+--gold2:#f0c36d;
+--line:rgba(255,255,255,.08);
+--radius:22px;
+--max:1100px;
+}
+
+body{
+margin:0;
+font-family:Inter,Arial;
+background:linear-gradient(180deg,#07111f,#02060c);
+color:var(--text);
+}
+
+.container{
+width:min(100% - 2rem,var(--max));
+margin:auto;
+}
+
+header{
+position:sticky;
+top:0;
+background:rgba(7,17,31,.7);
+backdrop-filter:blur(10px);
+border-bottom:1px solid var(--line);
+}
+
+.nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+height:70px;
+}
+
+.logo{
+font-weight:800;
+}
+
+.btn{
+padding:.9rem 1.2rem;
+border-radius:999px;
+font-weight:700;
+cursor:pointer;
+display:inline-block;
+}
+
+.primary{
+background:linear-gradient(90deg,var(--gold),var(--gold2));
+color:#2b1a04;
+}
+
+.secondary{
+border:1px solid var(--line);
+}
+
+.hero{
+padding:5rem 0;
+}
+
+h1{
+font-size:clamp(2.5rem,5vw,4rem);
+margin-bottom:1rem;
+}
+
+.lead{
+color:var(--muted);
+max-width:600px;
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(3,1fr);
+gap:1rem;
+}
+
+.card{
+background:rgba(255,255,255,.03);
+border:1px solid var(--line);
+padding:1.2rem;
+border-radius:var(--radius);
+}
+
+section{
+padding:4rem 0;
+}
+
+@media(max-width:900px){
+.grid{grid-template-columns:1fr;}
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container nav">
+<div class="logo">TR ProzessWerk</div>
+
+<a href="#"
+class="btn primary"
+data-tally-open="jaQNbl"
+data-tally-emoji-text="👋">
+Erstgespräch
+</a>
+</div>
+</header>
+
+<section class="hero">
+<div class="container">
+
+<h1>Moderne Webseiten und Automatisierung für Handwerksbetriebe.</h1>
+
+<p class="lead">
+Wir entwickeln professionelle Websites und digitale Abläufe für Handwerksbetriebe —
+damit mehr Anfragen entstehen und der Betrieb effizienter arbeitet.
+</p>
+
+<br>
+
+<a href="#"
+class="btn primary"
+data-tally-open="jaQNbl"
+data-tally-emoji-text="👋">
+Projekt anfragen
+</a>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<h2>Unsere Leistungen</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Webseiten</h3>
+<p>Moderne Websites für Handwerksbetriebe, die Vertrauen schaffen und Anfragen generieren.</p>
+</div>
+
+<div class="card">
+<h3>Leistungsseiten</h3>
+<p>Klare Struktur für Gewerke und Leistungen, damit Kunden sofort verstehen was Sie anbieten.</p>
+</div>
+
+<div class="card">
+<h3>Kontakt & Anfragen</h3>
+<p>Saubere Formulare und Prozesse für mehr qualifizierte Kundenanfragen.</p>
+</div>
+
+<div class="card">
+<h3>Automatisierung</h3>
+<p>Anfragen automatisch erfassen, sortieren und weiterleiten.</p>
+</div>
+
+<div class="card">
+<h3>Angebotsprozesse</h3>
+<p>Follow-ups und Erinnerungen, damit Angebote nicht verloren gehen.</p>
+</div>
+
+<div class="card">
+<h3>Systeme verbinden</h3>
+<p>Tools und Abläufe sinnvoll miteinander verknüpfen.</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<h2>Warum TR ProzessWerk</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Professioneller Auftritt</h3>
+<p>Websites, die Vertrauen schaffen und Kunden überzeugen.</p>
+</div>
+
+<div class="card">
+<h3>Klare Prozesse</h3>
+<p>Weniger Chaos im Alltag durch strukturierte Abläufe.</p>
+</div>
+
+<div class="card">
+<h3>Praxisnah</h3>
+<p>Lösungen, die im echten Handwerksbetrieb funktionieren.</p>
+</div>
+
+</div>
+
+</div>
+</section>
+
+<section>
+<div class="container">
+
+<h2>Projekt starten</h2>
+
+<p class="lead">
+Beschreiben Sie kurz Ihren Betrieb und wir melden uns mit einer ersten Einschätzung.
+</p>
+
+<br>
+
+<a href="#"
+class="btn primary"
+data-tally-open="jaQNbl"
+data-tally-emoji-text="👋">
+Bedarfsanalyse starten
+</a>
+
+</div>
+</section>
+
+<footer>
+<div class="container">
+<p>© TR ProzessWerk</p>
+</div>
+</footer>
+
+</body>
+</html>
